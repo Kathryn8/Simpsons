@@ -1,0 +1,39 @@
+* {
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-image: url(panaSimp.jpg); */
+  /* background-size: cover; */
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+#headerImg {
+  height: 100px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* margin-top: 30px; */
+}
+
+.displayQuote,
+.displayGiphy {
+  padding: 30px 50px;
+  margin: 0 auto;
+}
+
+.displayPic {
+  margin: 0 auto;
+}
+
+p {
+  text-align: right;
+}
